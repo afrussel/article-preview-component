@@ -1,11 +1,6 @@
-const buttonShare = document.getElementById('button');
-const iconShare = document.querySelector('.share-icon');
-const socialShare = document.querySelector('.share-link');
+const arrow = document.querySelector(".arrow");
+const share = document.querySelector(".share");
 
-if(buttonShare){
-    buttonShare.addEventListener('click', function() {
-        buttonShare.classList.toggle('aktif')
-        iconShare.classList.toggle('wth')
-        socialShare.classList.toggle('show')
-    })
-}
+arrow.addEventListener("click", function () {
+  share.classList.toggle("show");
+});
